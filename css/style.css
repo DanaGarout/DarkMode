@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 :root{
-    --primary-bg-color:#fff;
-    --secondary-bg-color:#eee;
+    --primary-bg-color:#eee;
+    --secondary-bg-color:#fff;
     --primary-text-color:#666;
     --secondary-text-color:#999;
+}
+body.active{
+    --primary-bg-color:#222;
+    --secondary-bg-color:#333;
+    --primary-text-color:#fff;
+    --secondary-text-color:#eee;
+
 }
 *{
     font-family: 'Nunito', sans-serif;
@@ -103,6 +110,11 @@
 #theme-toggler:hover{
     background-color: #42b530;
     color: #fff;
+    /* transform: rotate(180deg); */
+}
+#theme-toggler .bx-sun{
+    transform: rotate(180deg);
+
 }
 
 
